@@ -22,27 +22,27 @@ Buttons are divided into 3 groups:
 
 | NET | Arduino Pin | Arduino Port | Component Name | Component Pin | Extra |
 | --- | --- | --- | --- | --- | --- |
-| BR | D0 | PE0 | P2 Joystick | B2A | Puldown and debounce circuit |
-| BL | D1 | PE1 | P1 Joystick | B2A | Puldown and debounce circuit |
-| BLA | D3 | PE1 | K1 | B1 & B2 | Puldown and debounce circuit |
-| BLB | D4 | PE1 | K2 | B1 & B2 | Puldown and debounce circuit |
-| BLC | D5 | PE1 | K3 | B1 & B2 | Puldown and debounce circuit |
-| BLD | D6 | PE1 | K4 | B1 & B2 | Puldown and debounce circuit |
-| BRA | D7 | PE1 | K8 | B1 & B2 | Puldown and debounce circuit |
-| BRB | D8 | PE1 | K7 | B1 & B2 | Puldown and debounce circuit |
-| BRC | D9 | PE1 | K6 | B1 & B2 | Puldown and debounce circuit |
-| BRD | D10 | PE1 | K5 | B1 & B2 | Puldown and debounce circuit |
-| BCK | A4 | PE1 | K9 | B1 & B2 | Puldown and debounce circuit |
-| NXT | A5 | PE1 | K10 | B1 & B2 | Puldown and debounce circuit |
+| BR | D0 | PD0 | P2 Joystick | B2A | Puldown and debounce circuit |
+| BL | D1 | PD1 | P1 Joystick | B2A | Puldown and debounce circuit |
+| BLA | D3 | PD3 | K1 | B1 & B2 | Puldown and debounce circuit |
+| BLB | D4 | PD4 | K2 | B1 & B2 | Puldown and debounce circuit |
+| BLC | D5 | PD5 | K3 | B1 & B2 | Puldown and debounce circuit |
+| BLD | D6 | PD6 | K4 | B1 & B2 | Puldown and debounce circuit |
+| BRA | D7 | PD7 | K8 | B1 & B2 | Puldown and debounce circuit |
+| BRB | D8 | PB0 | K7 | B1 & B2 | Puldown and debounce circuit |
+| BRC | D9 | PB1 | K6 | B1 & B2 | Puldown and debounce circuit |
+| BRD | D10 | PB2 | K5 | B1 & B2 | Puldown and debounce circuit |
+| BCK | A4 | PC4 | K9 | B1 & B2 | Puldown and debounce circuit |
+| NXT | A5 | PC5 | K10 | B1 & B2 | Puldown and debounce circuit |
 
 ## NRF
 The NRF24L01 serial communication pins are connected to the default (hardware ISP) arduino nano ISP pins. To use the NRF24L01 you can use the Radio library.
 
 | NET | Arduino Pin | Arduino Port | Component Name | Component Pin | Extra |
 | --- | --- | --- | --- | --- | --- |
-| SCK | D13/SCK | PE0 | NRF24L01 | SCK | SPI |
-| MOSI | D11/MOSI | PE0 | NRF24L01 | MOSI | SPI  |
-| MISO | D12/MISO | PE0 | NRF24L01 | MISO | SPI |
-| CE | A6 | PE0 | NRF24L01 | CE | SPI |
-| CSN | A7 | PE0 | NRF24L01 | CSN |  |
-| IRQ | D2 | PE0 | NRF24L01 | IRQ | Interrupt |
+| SCK | D13/SCK | PB5 | NRF24L01 | SCK | SPI |
+| MOSI | D11/MOSI | PB3 | NRF24L01 | MOSI | SPI  |
+| MISO | D12/MISO | PB4 | NRF24L01 | MISO | SPI |
+| CE | A6 | PC6 | NRF24L01 | CE | SPI |
+| CSN | A7 | PC7 | NRF24L01 | CSN |  |
+| IRQ | D2 | PD2 | NRF24L01 | IRQ | Interrupt |
