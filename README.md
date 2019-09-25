@@ -6,7 +6,7 @@ This repo provides files to create your own wireless controller. Our main reason
 This project is based on an Arduino Nano, later we will provide a newer version with an Arduino Micro to power the board. Logical connections can be found in this schematic. Gerber files are available with this link.
 
 ## Power
-This board is designed to power it with 2* 18650 bateries, there are 2 on board regulators (5V, 3.3V).
+This board is designed to power it with 2* 18650 bateries, there are 2 on board regulators (5V, 3.3V). please be carefull when connecting the bateries, the 3.3V regulator has a max VIN of 15V (5V regulator: 18V).
 
 | Name | Type | Package | Voltage | PIN1 | PIN2 | PIN3 |
 | --- | --- | --- | --- | --- | --- | --- |
