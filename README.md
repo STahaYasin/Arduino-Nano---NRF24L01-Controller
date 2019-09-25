@@ -13,6 +13,12 @@ Buttons are divided into 3 groups:
 
 | NET | Arduino Pin | Arduino Port | Component Name | Component Pin | Extra |
 | --- | --- | --- | --- | --- | --- |
+| SCK | D13/SCK | PE0 | NRF24L01 | B2A |  |
+| MOSI | D11/MOSI | PE0 | NRF24L01 | MOSI |  |
+| MISO | D12/MISO | PE0 | NRF24L01 | MISO |  |
+| CE | A6 | PE0 | NRF24L01 | CE |  |
+| CSN | A7 | PE0 | NRF24L01 | CSN |  |
+| IRQ | D2 | PE0 | NRF24L01 | IRQ | Interrupt |
 | BR | D0 | PE0 | P2 Joystick | B2A | Puldown and debounce circuit |
 | BL | D1 | PE1 | P1 Joystick | B2A | Puldown and debounce circuit |
 | BLA | D3 | PE1 | K1 | B1 & B2 | Puldown and debounce circuit |
