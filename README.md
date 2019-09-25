@@ -15,16 +15,13 @@ Buttons are divided into 3 groups:
 | --- | --- | --- | --- | --- | --- |
 | BR | D0 | PE0 | P2 Joystick | B2A | Puldown and debounce circuit |
 | BL | D1 | PE1 | P1 Joystick | B2A | Puldown and debounce circuit |
-
 | BLA | D3 | PE1 | K1 | B1 & B2 | Puldown and debounce circuit |
 | BLB | D4 | PE1 | K2 | B1 & B2 | Puldown and debounce circuit |
 | BLC | D5 | PE1 | K3 | B1 & B2 | Puldown and debounce circuit |
 | BLD | D6 | PE1 | K4 | B1 & B2 | Puldown and debounce circuit |
-
 | BRA | D7 | PE1 | K8 | B1 & B2 | Puldown and debounce circuit |
 | BRB | D8 | PE1 | K7 | B1 & B2 | Puldown and debounce circuit |
 | BRC | D9 | PE1 | K6 | B1 & B2 | Puldown and debounce circuit |
 | BRD | D10 | PE1 | K5 | B1 & B2 | Puldown and debounce circuit |
-
 | BCK | A4 | PE1 | K9 | B1 & B2 | Puldown and debounce circuit |
 | NXT | A5 | PE1 | K10 | B1 & B2 | Puldown and debounce circuit |
