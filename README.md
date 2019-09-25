@@ -13,6 +13,17 @@ This board is designed to power it with 2* 18650 bateries, there are 2 on board 
 | U3 | L7805CV | TO-220 | 5V | VIN | GND | VOUT |
 | U5 | LD1117V33 | TO-220 | 3.3V | GND | VOUT | VIN |
 
+## Joysticks
+The board is provided with two dual-axis joysticks
+- 2 Joysticks {P1, P2}, 4 Axis {V1, H1, V2, H2}
+
+| NET | Arduino Pin | Arduino Port | Component Name | Component Pin | Extra |
+| --- | --- | --- | --- | --- | --- |
+| V1 | A0 | PC0 | P1 Joystick | V2 | Vertical Left Hand |
+| H1 | A1 | PC1 | P1 Joystick | H1 | Horizontal Left Hand |
+| V2 | A2 | PC2 | P2 Joystick | V2 | Vertical Right Hand |
+| H2 | A3 | PC3 | P2 Joystick | H2 | Horizontal Right Hand |
+
 ## Buttons
 Buttons are divided into 3 groups:
 - 2 Joystick buttons {BL, BR}
