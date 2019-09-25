@@ -7,6 +7,7 @@ This project is based on an Arduino Nano, later we will provide a newer version 
 
 ## Power
 This board is designed to power it with 2* 18650 bateries, there are 2 on board regulators (5V, 3.3V).
+
 | Name | Type | Package | Voltage | PIN1 | PIN2 | PIN3 |
 | --- | --- | --- | --- | --- | --- | --- |
 | U3 | L7805CV | TO-220 | 5V | VIN | GND | VOUT |
