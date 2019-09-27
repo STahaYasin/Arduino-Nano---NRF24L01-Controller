@@ -25,7 +25,7 @@ The board is provided with two dual-axis joysticks
 | H2 | A3 | PC3 | P2 Joystick | H2 | Horizontal Right Hand |
 
 ## Buttons
-Buttons are divided into 3 groups:
+Buttons are divided into 4 groups:
 - 2 Joystick buttons {BL, BR}
 -	4 Buttons left hand {BLA, BLB, BLC, BLD}
 -	4 Buttons right hand {BRA, BRB, BRC, BRD}
