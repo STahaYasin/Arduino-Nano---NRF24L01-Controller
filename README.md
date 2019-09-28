@@ -1,5 +1,5 @@
 # Arduino Nano - NRF24L01 Wireless Controller
-NRF24L01 powered wireless controller, this controller is provided with 2 dual axes joysticks, and 10 buttons.
+NRF24L01 powered wireless controller, this controller is provided with 2 dual axes joysticks, and 12 buttons.
 
 This repo provides files to create your own wireless controller. Our main reason to create this controller was to control a Drone which is also done by the same team.
 
